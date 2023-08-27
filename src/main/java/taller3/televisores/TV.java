@@ -63,7 +63,7 @@ public class TV {
         control = control1;
     }
     
-    public static int totalNumTV(int numTV){
+    public static int getNumTV(int numTV){
     	numTV++;
     	return numTV;
     }
