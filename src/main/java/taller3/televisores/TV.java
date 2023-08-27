@@ -28,6 +28,10 @@ public class TV {
         marca = marca1;
     }
 
+	public void setEstado(boolean estad) {
+        estado = estad;
+    }
+
 	public int getCanal() {
         return canal;
     }
