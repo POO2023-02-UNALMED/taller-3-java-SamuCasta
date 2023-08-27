@@ -17,6 +17,7 @@ public class TV {
         volumen = 1;
         precio = 500;
         control = new Control();
+        numTV++;
 	}
 	
 	public Marca getMarca() {
@@ -63,8 +64,7 @@ public class TV {
         control = control1;
     }
     
-    public static int getNumTV(int numTV){
-    	numTV++;
+    public static int getNumTV(){
     	return numTV;
     }
     public void turnOn() {

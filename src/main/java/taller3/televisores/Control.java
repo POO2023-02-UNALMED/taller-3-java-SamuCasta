@@ -59,10 +59,10 @@ public class Control {
         }
     }
 	
-	public TV getTelevisor() {
+	public TV getTv() {
 		return tv;
 	}
-	public void setTelevisor(TV tv1) {
+	public void setTv(TV tv1) {
 		this.tv = tv1;
 	}
 
